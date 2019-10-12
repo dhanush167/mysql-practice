@@ -11,11 +11,11 @@ show databases;
 
 The general command for creating a database:
 
-CREATE DATABASE database_name; 
+`CREATE DATABASE database_name; `
 
 A specific example:
 
-CREATE DATABASE soap_store; 
+`CREATE DATABASE soap_store; `
 
 
 <hr>
@@ -32,6 +32,7 @@ Remember to be careful with this command! Once you drop a database, it's gone!
 
 <hr>
 
+
 ## CODE Using Databases
 
 `USE <database name>;`
@@ -45,7 +46,6 @@ SELECT database();
 <hr>
 
 ## CODE Creating Your Own Tables
-
 
 
 `CREATE TABLE tablename
@@ -64,7 +64,7 @@ SELECT database();
 > 1050 - Table 'cats' already exists
 > Time: 0.001s
 
-
+<hr>
 
 ## How Do We Know It Worked
 
@@ -100,6 +100,7 @@ SELECT database();
 > Time: 0.001s
 
 
+<hr>
 
 ## Dropping Tables
 

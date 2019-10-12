@@ -177,6 +177,13 @@ FROM books;`
 
 ## Introducing REPLACE
 
+<p>  
+ MySQL provides you with a useful string function called REPLACE that allows you to replace a string in a column of a table by a new string.
+</p>
+
+<p>  The syntax of the REPLACE function is as follows: </p>
+
+
 `SELECT REPLACE('Hello World', 'Hell', '%$#@');`
 
 `SELECT REPLACE('Hello World', 'l', '7');`

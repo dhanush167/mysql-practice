@@ -16,9 +16,7 @@ Link - 1.Creating Databases and Tables
  <a href=""> Link - 3.CRUD commands</a>
 </li>
  
-<li> 
-<a href=""> Link - 4.CRUD Challenge Section</a>
-</li>
+
 
 <li> <a href=""> Link - 5.The World Of String Functions</a></li>
 <li> <a href=""> Link - 6.Refining Our Selections</a></li>

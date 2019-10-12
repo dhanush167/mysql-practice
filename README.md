@@ -13,7 +13,7 @@ Link - 1.Creating Databases and Tables
 </li>
 
 <li>
- <a href=""> Link - 3.CRUD commands</a>
+ <a href="https://github.com/kadawatha/mysql-guid/blob/master/2_CRUD_commmands.md"> Link - 3.CRUD commands</a>
 </li>
  
 

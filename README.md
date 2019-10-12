@@ -3,13 +3,13 @@
 
 
 <li> 
-<a href="https://github.com/kadawatha/mysql-guid/blob/master/0-Creating%20Databases%20and%20Tables.md"> 
+<a href="https://github.com/kadawatha/mysql-guid/blob/master/0_Creating_Databases_and_Tables.md"> 
 Link - 1.Creating Databases and Tables 
 </a>
 </li>
 
 <li> 
-<a href=""> Link - 2.Inserting Data and a couple other things </a>
+<a href="https://github.com/kadawatha/mysql-guid/blob/master/1_Inserting_Data_and_a_couple_other_things.md"> Link - 2.Inserting Data and a couple other things </a>
 </li>
 
 <li>

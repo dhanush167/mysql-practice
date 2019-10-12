@@ -1,97 +1,118 @@
-<p> CODE Creating Your Own Tables </p>
+
+## Creating Databases Code
+
+Start the CLI:
+
+mysql-ctl cli; 
+
+List available databases:
+
+show databases; 
+
+The general command for creating a database:
+
+CREATE DATABASE database_name; 
+
+A specific example:
+
+CREATE DATABASE soap_store; 
+
+
+<hr>
+
+## To drop a database:
+
+`DROP DATABASE database_name; `
+
+**For Example:**
+
+`DROP DATABASE hello_world_db; `
+
+Remember to be careful with this command! Once you drop a database, it's gone!
+
+<hr>
+
+## CODE Using Databases
+
+`USE <database name>;`
+
+**-- example:**
+
+USE dog_walking_app;
+
+SELECT database();
+
+<hr>
+
+## CODE Creating Your Own Tables
+
+
 
 `CREATE TABLE tablename
   (
     column_name data_type,
     column_name data_type
-  );`
-  
+  );
+`
+
 `CREATE TABLE cats
   (
     name VARCHAR(100),
     age INT
   );`
-  
-<hr>
 
-<p> CODE How Do We Know It Worked </p>
+> 1050 - Table 'cats' already exists
+> Time: 0.001s
+
+
+
+## How Do We Know It Worked
 
 `SHOW TABLES;`
 
+> OK
+> Time: 0.001s
+>
+>cats
+>
+>cats2
+>
+>users_image
+
+
 `SHOW COLUMNS FROM tablename;`
+
+> OK
+> Time: 0.001s
+>
+>name
+ age
+>
+>varchar(100)
+ int(11)
+>
+
+
 
 `DESC tablename;`
 
-**`SHOW COLUMNS FROM cats;`**
-
-**`DESC cats;`**
-
-<hr>
-
-<p> Inserting Data </p>
-  
-`INSERT INTO table_name(column_name) VALUES (data); ` 
-  
-**` INSERT INTO cats(name, age) VALUES ('Jetson', 7); `**
-  
-  <hr>
-  
-  <p> Super Quick Intro To SELECT </p>
-
-`SELECT * FROM cats;` 
-
-  <hr>
-  
-  <p> CODE Multiple Insert </p>
-
-`INSERT INTO table_name 
-            (column_name, column_name) 
-VALUES      (value, value), 
-            (value, value), 
-            (value, value);`
-
-**`INSERT INTO cats (name, age) VALUES ('zeena', 12), ('google', 10), ('cofee', 58);`**
+> 1146 - Table 'test.tablename' doesn't exist
+> Time: 0.001s
 
 
-  <hr>
-  
-NULL and NOT NULL Code
-Try inserting a cat without an age:
 
-`INSERT INTO cats(name) VALUES('Alabama');` 
-
-`SELECT * FROM cats;` 
-
-Try inserting a nameless and ageless cat:
-
-`INSERT INTO cats() VALUES();` 
+## Dropping Tables
 
 
-Define a new cats2 table with NOT NULL constraints:
+`DROP TABLE <tablename>; `
 
-`CREATE TABLE cats2
-  (
-    name VARCHAR(100) NOT NULL,
-    age INT NOT NULL
-  );`
-  
-`DESC cats2;` 
+A specific example:
 
-Now try inserting an ageless cat:
+`DROP TABLE cats; `
 
-`INSERT INTO cats2(name) VALUES('Texas');` 
+Be careful with this command!
 
-View the new warnings:
 
-SHOW WARNINGS; 
-
-`SELECT * FROM cats2;` 
-
-Do the same for a nameless cat:
-
-`INSERT INTO cats2(age) VALUES(7);` 
-
-SHOW WARNINGS; 
 
 
 

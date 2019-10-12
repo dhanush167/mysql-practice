@@ -1,103 +1,29 @@
-<p> CODE Creating Your Own Tables </p>
 
-`CREATE TABLE tablename
-  (
-    column_name data_type,
-    column_name data_type
-  );`
-  
-`CREATE TABLE cats
-  (
-    name VARCHAR(100),
-    age INT
-  );`
-  
-<hr>
+<ul> 
 
-<p> CODE How Do We Know It Worked </p>
-
-`SHOW TABLES;`
-
-`SHOW COLUMNS FROM tablename;`
-
-`DESC tablename;`
-
-**`SHOW COLUMNS FROM cats;`**
-
-**`DESC cats;`**
-
-<hr>
-
-<p> Inserting Data </p>
-  
-`INSERT INTO table_name(column_name) VALUES (data); ` 
-  
-**` INSERT INTO cats(name, age) VALUES ('Jetson', 7); `**
-  
-  <hr>
-  
-  <p> Super Quick Intro To SELECT </p>
-
-`SELECT * FROM cats;` 
-
-  <hr>
-  
-  <p> CODE Multiple Insert </p>
-
-`INSERT INTO table_name 
-            (column_name, column_name) 
-VALUES      (value, value), 
-            (value, value), 
-            (value, value);`
-
-**`INSERT INTO cats (name, age) VALUES ('zeena', 12), ('google', 10), ('cofee', 58);`**
+<li> <a href=""> Link - 1.Creating Databases and Tables </a></li>
+<li> <a href=""> Link - 2.Inserting Data and a couple other things </a></li>
+<li> <a href=""> Link - 3.CRUD commands</a></li>
+<li> <a href=""> Link - 4.CRUD Challenge Section</a></li>
+<li> <a href=""> Link - 5.The World Of String Functions</a></li>
+<li> <a href=""> Link - 6.Refining Our Selections</a></li>
+<li> <a href=""> Link - 7.The Magic of Aggregate Functions</a></li>
+<li> <a href=""> Link - 8.Revisiting Data Types</a></li>
+<li> <a href=""> Link - 9.The Power of Logical Operators</a></li>
+<li> <a href=""> Link - 10.Section 12 One To Many</a></li>
+<li> <a href=""> Link - 11.Section 13 Many To Man</a></li>
 
 
-  <hr>
-  
-NULL and NOT NULL Code
-Try inserting a cat without an age:
+</ul>
 
-`INSERT INTO cats(name) VALUES('Alabama');` 
-
-`SELECT * FROM cats;` 
-
-Try inserting a nameless and ageless cat:
-
-`INSERT INTO cats() VALUES();` 
-
-
-Define a new cats2 table with NOT NULL constraints:
-
-`CREATE TABLE cats2
-  (
-    name VARCHAR(100) NOT NULL,
-    age INT NOT NULL
-  );`
-  
-`DESC cats2;` 
-
-Now try inserting an ageless cat:
-
-`INSERT INTO cats2(name) VALUES('Texas');` 
-
-View the new warnings:
-
-SHOW WARNINGS; 
-
-`SELECT * FROM cats2;` 
-
-Do the same for a nameless cat:
-
-`INSERT INTO cats2(age) VALUES(7);` 
-
-SHOW WARNINGS; 
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

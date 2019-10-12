@@ -183,6 +183,8 @@ FROM books;`
 
 <p>  The syntax of the REPLACE function is as follows: </p>
 
+	
+_**REPLACE(str,old_string,new_string);**_
 
 `SELECT REPLACE('Hello World', 'Hell', '%$#@');`
 

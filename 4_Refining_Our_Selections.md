@@ -92,6 +92,88 @@
 
 `ORDER BY author_lname, author_fname;`
 
+<hr>
+
+## Using LIMIT
+
+
+`SELECT title FROM books LIMIT 3;`
+
+`SELECT title FROM books LIMIT 1;`
+
+`SELECT title FROM books LIMIT 10;`
+
+`SELECT * FROM books LIMIT 1;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 5;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 1;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 14;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 0,5;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 0,3;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 1,3;`
+
+`SELECT title, released_year FROM books 
+ORDER BY released_year DESC LIMIT 10,1;`
+
+`SELECT * FROM tbl LIMIT 95,18446744073709551615;`
+
+`SELECT title FROM books LIMIT 5;`
+
+`SELECT title FROM books LIMIT 5, 123219476457;`
+
+`SELECT title FROM books LIMIT 5, 50;`
+
+
+<hr>
+
+
+## Better Searches with LIKE
+
+
+
+`SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';`
+
+`SELECT title, author_fname FROM books WHERE author_fname LIKE 'da%';`
+
+`SELECT title FROM books WHERE  title LIKE 'the';`
+
+`SELECT title FROM books WHERE  title LIKE '%the';`
+
+`SELECT title FROM books WHERE title LIKE '%the%';`
+
+
+<hr>
+
+
+## LIKE Part 2 More Wildcards
+
+`SELECT title, stock_quantity FROM books;`
+
+`SELECT title, stock_quantity FROM books WHERE stock_quantity LIKE '____';`
+
+`SELECT title, stock_quantity FROM books WHERE stock_quantity LIKE '__';`
+
+`(235)234-0987 LIKE '(___)___-____'`
+
+`SELECT title FROM books;`
+
+`SELECT title FROM books WHERE title LIKE '%\%%'`
+
+`SELECT title FROM books WHERE title LIKE '%\_%'`
+
+<hr>
+
 
 <hr>
 
@@ -153,7 +235,18 @@ GROUP BY email
 HAVING COUNT(email) > 1;`
 
 
-<hr>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

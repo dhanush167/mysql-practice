@@ -20,17 +20,17 @@ Link - 1.Creating Databases and Tables
 
 <li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/3_The_World_Of_String_Functions.md"> Link - 5.The World Of String Functions</a></li>
 
-<li> <a href=""> Link - 6.Refining Our Selections</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/4_Refining_Our_Selections.md"> Link - 6.Refining Our Selections</a></li>
 
-<li> <a href=""> Link - 7.The Magic of Aggregate Functions</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/5_The_Magic_of_Aggregate_Functions.md"> Link - 7.The Magic of Aggregate Functions</a></li>
 
-<li> <a href=""> Link - 8.Revisiting Data Types</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/6_Revisiting_Data_Types.md"> Link - 8.Revisiting Data Types</a></li>
 
-<li> <a href=""> Link - 9.The Power of Logical Operators</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/7_The_Power_of_Logical_Operators.md"> Link - 9.The Power of Logical Operators</a></li>
 
-<li> <a href=""> Link - 10.Section 12 One To Many</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/8_One_To_Many.md"> Link - 10.Section 12 One To Many</a></li>
 
-<li> <a href=""> Link - 11.Section 13 Many To Many</a></li>
+<li> <a href="https://github.com/kadawatha/mysql-guid/blob/master/9_Many_To-Many.md"> Link - 11.Section 13 Many To Many</a></li>
 
 
 </ul>

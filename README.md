@@ -30,7 +30,7 @@ Link - 1.Creating Databases and Tables
 
 <li> <a href=""> Link - 10.Section 12 One To Many</a></li>
 
-<li> <a href=""> Link - 11.Section 13 Many To Man</a></li>
+<li> <a href=""> Link - 11.Section 13 Many To Many</a></li>
 
 
 </ul>

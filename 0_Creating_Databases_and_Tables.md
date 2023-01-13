@@ -1,3 +1,16 @@
+```
+
+mysql -u root -p
+
+How to import sql file in MySQL on Linux and Windows
+
+upload sql file to linux server 
+
+source /var/www/html/vpsfinall/db/brestolddb.sql
+
+
+```
+
 
 ## Creating Databases Code
 

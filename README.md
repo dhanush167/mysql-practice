@@ -19,7 +19,9 @@ Exporting to Files Using the MySQL Command Line
 
 mysqldump -u my_username -p database_name > output_file_path
 
-ex :- mysqldump -u root -p database_name > /var/www/html/vpsfinall/db/
+ex :- mysqldump -u root -p database_name > database_name.sql
+
+go to /home/user/ directory and download it
 
 ```
 
